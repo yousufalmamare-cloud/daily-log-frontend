@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Log</title>
+</head>
+<body>
+  <h1>Daily Log</h1>
+
+  <input type="date" id="date">
+  <br><br>
+  <textarea id="text" placeholder="Write your log"></textarea>
+  <br><br>
+  <button onclick="addLog()">Save</button>
+
+  <ul id="logs"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
